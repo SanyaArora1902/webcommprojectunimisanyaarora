@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saffron Spice</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar (basic structure from W3Schools - Navbar tutorial) -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="../index.html">Saffron Spice</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navLinks">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="../about/index.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reserve">Reserve</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Newsletter</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Menu Section -->
+<section id="menu" class="container section">
+  <h2 class="text-center">The Menu</h2>
+<h5 class="menu-subtitle">Antipasti - Starters</h5>
+  <div class="row mt-4">
+
+    <div class="col-md-4">
+      <div class="card food-card">
+        <img src="images/samosa.jpg" class="card-img-top" alt="Samosa">
+        <div class="card-body">
+          <h5 class="card-title">Samosa di Verdure</h5>
+          <p class="card-text">Croccanti fagottini ripieni di patate speziate e piselli, serviti con chutney alla menta e tamarindo.</p>
+          <p><strong>5,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card food-card">
+        <img src="images/Onion-Bhaji.jpg" class="card-img-top" alt="Onion Bhaji">
+        <div class="card-body">
+          <h5 class="card-title">Onion Bhaji</h5>
+          <p class="card-text">Frittelle di cipolla in pastella di farina di ceci e spezie aromatiche.</p>
+          <p><strong>4,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card food-card">
+        <img src="images/Chicken-Tikka.jpg" class="card-img-top" alt="Chicken Tikka">
+        <div class="card-body">
+          <h5 class="card-title">Chicken Tikka</h5>
+          <p class="card-text">Bocconcini di pollo marinati in yogurt e spezie, cotti nel forno tandoor.</p>
+          <p><strong>7,50€</strong></p>
+        </div>
+      </div>
+    </div>
+
+        <div class="col-md-4">
+      <div class="card food-card">
+        <img src="images/Paneer-Pakora.jpg" class="card-img-top" alt="Paneer Pakora">
+        <div class="card-body">
+          <h5 class="card-title">Paneer Pakora</h5>
+          <p class="card-text">Frittelle di formaggio indiano fresco con coriandolo e cumino.</p>
+          <p><strong>5,50€</strong></p>
+        </div>
+      </div>
+    </div>
+
+            <div class="col-md-4">
+      <div class="card food-card">
+        <img src="images/Fish-tikka.jpg" class="card-img-top" alt="Fish Tikka">
+        <div class="card-body">
+          <h5 class="card-title">Fish Tikka</h5>
+          <p class="card-text">Filetti di pesce marinati e cotti nel tandoor.</p>
+          <p><strong>9,00€</strong></p>
+        </div>
+      </div>
+    </div>
+<br>
+<br>
+    <h5 class="menu-subtitle">Piatti Vegetariani – Vegetarian Specialties</h5>
+
+        <div class="col-md-4">
+      <div class="card food-card">
+        <img src="images/Palak-Paneer.jpg" class="card-img-top" alt="Palak Paneer">
+        <div class="card-body">
+          <h5 class="card-title">Palak Paneer</h5>
+          <p class="card-text">Crema di spinaci con formaggio fresco indiano e spezie delicate.</p>
+          <p><strong>8,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+            <div class="col-md-4">
+      <div class="card food-card">
+        <img src="images/Chana-Masala.jpg" class="card-img-top" alt="Chana Masala">
+        <div class="card-body">
+          <h5 class="card-title">Chana Masala</h5>
+          <p class="card-text">Frittelle di formaggio indiano fresco con coriandolo e cumino.</p>
+          <p><strong>7,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+     <div class="col-md-4">
+      <div class="card food-card">
+        <img src="images/Dal-Makhani.jpg" class="card-img-top" alt="Dal Makhani">
+        <div class="card-body">
+          <h5 class="card-title">Dal Makhani</h5>
+          <p class="card-text">Lenticchie nere cotte a fuoco lento con burro e panna.</p>
+          <p><strong>9,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+         <div class="col-md-4">
+      <div class="card food-card">
+        <img src="images/Vegetable-Korma.jpg" class="card-img-top" alt="Vegetable Korma">
+        <div class="card-body">
+          <h5 class="card-title">Vegetable Korma</h5>
+          <p class="card-text">Verdure di stagione in salsa di anacardi e cocco, leggermente speziata.</p>
+          <p><strong>6,50€</strong></p>
+        </div>
+      </div>
+    </div>
+<br>
+<br>
+   <h5 class="menu-subtitle">Pollo - Chicken Curries</h5>
+
+            <div class="col-md-4">
+      <div class="card food-card">
+        <img src="images/Butter-Chicken.jpg" class="card-img-top" alt="Butter Chicken">
+        <div class="card-body">
+          <h5 class="card-title">Butter Chicken</h5>
+          <p class="card-text">Pollo tandoori in salsa cremosa di pomodoro, burro e spezie.</p>
+          <p><strong>12,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+   <div class="col-md-4">
+      <div class="card food-card">
+        <img src="images/Chicken-Tikka-Masala.jpg" class="card-img-top" alt="Chicken Tikka Masala">
+        <div class="card-body">
+          <h5 class="card-title">Chicken Tikka Masala</h5>
+          <p class="card-text">Pollo grigliato in salsa speziata e vellutata.</p>
+          <p><strong>10,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+       <div class="col-md-4">
+      <div class="card food-card">
+        <img src="images/Chicken-Korma.jpg" class="card-img-top" alt="Chicken Korma">
+        <div class="card-body">
+          <h5 class="card-title">Chicken Korma</h5>
+          <p class="card-text">Curry delicato di mandorle, panna e zafferano.</p>
+          <p><strong>11,00€</strong></p>
+        </div>
+      </div>
+    </div>
+<br>
+<br>
+       <h5 class="menu-subtitle">Agnello – Lamb Curries</h5>
+
+  <div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Rogan-Josh-di-Agnello.jpg" class="card-img-top" alt="Rogan Josh di Agnello">
+      <div class="card-body">
+        <h5 class="card-title">Rogan Josh di Agnello</h5>
+        <p class="card-text">Spezzatino di agnello in salsa aromatica stile Kashmir.</p>
+        <p><strong>16,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+      <div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Agnello-Vindaloo.jpg" class="card-img-top" alt="Agnello Vindaloo">
+      <div class="card-body">
+        <h5 class="card-title">Agnello Vindaloo</h5>
+        <p class="card-text">Curry piccante di origine goana con aceto e peperoncino.</p>
+        <p><strong>14,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+          <div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Agnello-Saag.jpg" class="card-img-top" alt="Agnello Saag">
+      <div class="card-body">
+        <h5 class="card-title">Agnello Saag</h5>
+        <p class="card-text">Agnello cotto con spinaci, aglio e spezie.</p>
+        <p><strong>15,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+           <h5 class="menu-subtitle">Riso e Biryani – Rice & Biryani</h5>
+
+    <div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Steamed-Rice.jpg" class="card-img-top" alt="Steamed Rice">
+      <div class="card-body">
+        <h5 class="card-title">Steamed Rice</h5>
+        <p class="card-text">Riso Basmati al Vapore</p>
+        <p><strong>10,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+        <div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Biryani-di-Verdure.jpg" class="card-img-top" alt="Biryani di Verdure">
+      <div class="card-body">
+        <h5 class="card-title">Biryani di Verdure</h5>
+        <p class="card-text">Riso profumato con verdure, zafferano ed erbe.</p>
+        <p><strong>13,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+            <div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Biryani-di-Pollo.jpg" class="card-img-top" alt="Biryani di Pollo">
+      <div class="card-body">
+        <h5 class="card-title">Biryani di Pollo</h5>
+        <p class="card-text">Riso basmati con pollo speziato e spezie reali.</p>
+        <p><strong>20,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+                <div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Biryani-di-Agnello.jpg" class="card-img-top" alt="Biryani di Agnello">
+      <div class="card-body">
+        <h5 class="card-title">Biryani di Agnello</h5>
+        <p class="card-text">Riso basmati con agnello cotto lentamente.</p>
+        <p><strong>23,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+  <h5 class="menu-subtitle">Pane dal Tandoor - Breads</h5>
+
+  <div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Naan-Classico.jpg" class="card-img-top" alt="Naan Classico">
+      <div class="card-body">
+        <h5 class="card-title">Naan Classico</h5>
+        <p class="card-text">Pane indiano soffice e fragrante, cotto al forno tradizionale.</p>
+        <p><strong>2,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+      <div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Naan-all-Aglio.jpg" class="card-img-top" alt="Naan all’Aglio">
+      <div class="card-body">
+        <h5 class="card-title">Naan all’Aglio</h5>
+        <p class="card-text">Naan morbido aromatizzato con aglio fresco e spezie leggere.</p>
+        <p><strong>2,50€</strong></p>
+        </div>
+      </div>
+    </div>
+
+          <div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Naan-al-Burro.jpg" class="card-img-top" alt="Naan al Burro">
+      <div class="card-body">
+        <h5 class="card-title">Naan al Burro</h5>
+        <p class="card-text">Pane naan caldo e soffice, arricchito con burro fuso.</p>
+        <p><strong>2,50€</strong></p>
+        </div>
+      </div>
+    </div>
+
+              <div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Naan-al-Formaggio.jpg" class="card-img-top" alt="Naan al Formaggio">
+      <div class="card-body">
+        <h5 class="card-title">Naan al Formaggio</h5>
+        <p class="card-text">Naan ripieno di formaggio filante, ricco e goloso.</p>
+        <p><strong>3,00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+              <div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Roti-Integrale.jpg" class="card-img-top" alt="Roti Integrale">
+      <div class="card-body">
+        <h5 class="card-title">Roti Integrale</h5>
+        <p class="card-text">Focaccia indiana sottile e leggera a base di farina integrale.</p>
+        <p><strong>1,50€</strong></p>
+        </div>
+      </div>
+    </div>
+
+               <h5 class="menu-subtitle">Dolci - Desserts</h5>
+
+<div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Gulab-Jamun.jpg" class="card-img-top" alt="Gulab Jamun">
+      <div class="card-body">
+        <h5 class="card-title">Gulab Jamun</h5>
+        <p class="card-text">Dolcetti di latte fritti in sciroppo al cardamomo.</p>
+        <p><strong>3.00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Kulfi-al-Pistacchio.jpg" class="card-img-top" alt="Kulfi al Pistacchio">
+      <div class="card-body">
+        <h5 class="card-title">Kulfi al Pistacchio</h5>
+        <p class="card-text">Gelato tradizionale indiano al pistacchio.</p>
+        <p><strong>6.00€</strong></p>
+        </div>
+      </div>
+    </div>
+
+        <div class="col-md-4">
+    <div class="card food-card">
+      <img src="images/Mango-Lassi-Dolce.jpg" class="card-img-top" alt="Mango Lassi Dolce">
+      <div class="card-body">
+        <h5 class="card-title">Mango Lassi Dolce</h5>
+        <p class="card-text">Bevanda cremosa allo yogurt e mango.</p>
+        <p><strong>5.50€</strong></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="light-bg">
+  <div class="container section">
+    <h2 class="text-center">Contact</h2>
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <p><strong>Address:</strong> Piazza della Vittoria, 24, 26900 Lodi LO</p>
+        <p><strong>Hours:</strong> 12PM - 3 PM & 6PM - 10PM</p>
+        <p><strong>Email:</strong>
+             <a href="mailto:sanya.arora104@gmail.com">Saffronspice@email.com</a>
+        </p>
+        <p><strong>Phone:</strong> +39 345 9349734</p>
+
+        <h5>Newsletter</h5>
+
+        <!-- Simple form layout inspired from W3Schools input group examples -->
+        <form id="newsForm" action="https://formspree.io/f/mvzrozar" method="POST">
+          <div class="input-group">
+            <input type="email" name="subs" class="form-control" placeholder="Enter email">
+            <button class="btn btn-primary">Join</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805.7358426233714!2d9.499747275782184!3d45.313761443464436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47812d56ca7fea79%3A0x3a837386097a968e!2sCentro%20di%20LODI!5e0!3m2!1sen!2sit!4v1769623103018!5m2!1sen!2sit"
+
+          width="100%"
+          height="300"
+          style="border:0;">
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>Follow us</p>
+  <p>
+    <a href="https://www.facebook.com">Facebook</a> |
+    <a href="https://www.instagram.com">Instagram</a> |
+    <a href="https://www.x.com">X</a>
+  </p>
+  <p>© 2026 Saffron Spice</p>
+</footer>
+
+<!-- Cookie Box (based on W3Schools JS examples for show/hide) -->
+<div id="cookieBox" class="cookie-box">
+  <p>This website uses cookies to improve your experience.</p>
+  <button class="btn btn-primary btn-sm" onclick="acceptCookies()">OK</button>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
