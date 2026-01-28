@@ -1,0 +1,103 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #D4AF37;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+  font-family: 'Playfair Display', serif;
+}
+
+.nav-link:hover {
+  color: #cfe8dc !important;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(images/hero1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-box {
+  text-align: center;
+}
+
+/* Sections */
+.section {
+  padding: 60px 0;
+}
+
+.light-bg {
+  background-color: #f4f7f6;
+}
+
+/* Cards */
+.food-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.text-center{
+text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #1A2C5B;          /* same royal blue */
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  letter-spacing: 0.05em;
+}
+
+.menu-subtitle {
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  color: #1A2C5B;          /* same royal blue */
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+  letter-spacing: 0.05em;
+}
+
+.food-card {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.footer {
+  background-color: #2f4f4f;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #cfe8dc;
+  text-decoration: none;
+}
+
+/* Cookie Box */
+.cookie-box {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: none;
+}
